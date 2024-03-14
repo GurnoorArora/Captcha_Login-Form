@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include Font Awesome if you want to use the refresh icon -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+</head>
+<body>
+    <div class="login-form">
+        <div class="form-title">
+            <!-- Title content goes here -->
+        </div>
+        <div class="form-input">
+            <label for="username">Username</label>
+            <input type="text" id="username">
+        </div>
+        <div class="form-input">
+            <label for="password">Password</label>
+            <input type="password" id="password">
+        </div>
+        <div class="captcha">
+            <label for="captcha-input">Enter Captcha</label>
+            <!-- Preview div removed, if not needed -->
+            <div class="captcha-form">
+                <input type="text" id="captcha-form" placeholder="Enter captcha text">
+                <!-- Refresh button modified, Font Awesome classes removed -->
+                <button class="captcha-refresh">
+                    Refresh
+                </button>
+            </div>
+        </div>
+        <div class="form-button">
+            <!-- Button label changed to "Sign Up" -->
+            <button id="login-btn">Sign Up</button>
+        </div>
+    </div>
+</body>
+</html>
