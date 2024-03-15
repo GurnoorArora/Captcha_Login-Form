@@ -42,7 +42,7 @@ body{
 
 }
 
-.login-form .form-input{
+.login-form .form-input input{
     width: 100%;
     padding: 10px;
     border: 1px solid #888;
@@ -99,7 +99,7 @@ body{
     background: #4c81ff;
     color: #fff;
     cursor: pointer;
-    
+
 
 
 }
